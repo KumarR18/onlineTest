@@ -1,0 +1,22 @@
+1.var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped.
+
+
+4. (a) function reverseArray(arr) {
+  var newArray = [];
+  for (var i = arr.length - 1; i >= 0; i--) {
+    newArray.push(arr[i]);
+  }
+  return newArray;
+}
+
+ (b)function reverse(str:string) {
+     return str.split('').reverse().join('');
+  }
+
+5. const names = ['sady', 'sanam', 'sakil', 'sandy', 'sonam'];
+
+  let uniqueNames = [...new Set(names)];
+  console.log(uniqueNames); 
+
+
+
